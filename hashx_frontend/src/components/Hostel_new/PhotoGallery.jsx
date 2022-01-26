@@ -12,6 +12,7 @@ const Heading = styled(Typography)({
   color: '#575757',
   fontWeight: 'bold',
   fontSize: '1.7rem',
+  letterSpacing: '0.08rem',
   lineHeight: '1.7rem',
   paddingBottom: '1rem',
 });

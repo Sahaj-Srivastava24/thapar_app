@@ -17,6 +17,7 @@ const Heading = styled(Typography)({
   fontWeight: 'bold',
   fontSize: '1.7rem',
   lineHeight: '1.7rem',
+  letterSpacing: '0.08rem',
   paddingBottom: '1rem',
 });
 

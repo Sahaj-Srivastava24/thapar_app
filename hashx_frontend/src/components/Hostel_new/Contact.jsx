@@ -14,6 +14,7 @@ const Heading = styled(Typography)({
   fontSize: '1.7rem',
   lineHeight: '1.7rem',
   paddingBottom: '1rem',
+  letterSpacing: '0.08rem',
 });
 
 const SubHeadings = styled(Typography)({});
