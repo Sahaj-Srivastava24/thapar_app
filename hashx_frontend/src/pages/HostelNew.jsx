@@ -37,9 +37,6 @@ function HostelNew() {
             <Announcement />
           </StyledGrid>
           <StyledGrid item xs={12} sm={12} md={12} lg={12}>
-            <PhotoGallery />
-          </StyledGrid>
-          <StyledGrid item xs={12} sm={12} md={12} lg={12}>
             <Contact />
           </StyledGrid>
         </MainGrid>
