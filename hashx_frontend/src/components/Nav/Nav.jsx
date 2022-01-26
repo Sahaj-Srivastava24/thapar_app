@@ -71,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Nav = () => {
+const Nav = ({ titleText }) => {
   const classes = useStyles();
   const { user } = useContext(UserContext);
   const [open, setOpen] = useState(false);
@@ -93,7 +93,8 @@ const Nav = () => {
             <Grid item xs={3}>
               <Paper elevation={2} className={classes.paper}>
                 <div style={{ whiteSpace: 'nowrap' }}>
-                  <span style={{ color: '#A3A3A3' }}>Welcome</span>{' '}
+                  {/* <span style={{ color: '#A3A3A3' }}>Welcome</span>{' '} */}
+                  <span style={{ color: '#A3A3A3' }}>{titleText}</span>{' '}
                   {user.firstName}
                 </div>
               </Paper>

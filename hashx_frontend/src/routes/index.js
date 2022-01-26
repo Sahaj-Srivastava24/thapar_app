@@ -20,7 +20,7 @@ const CourseDetail = lazy(() => import('../pages/CourseDetail'));
 const TimeTable = lazy(() => import('../components/Timetable/TimeTable'));
 const Forum = lazy(() => import('../pages/Forum'));
 const Hostel = lazy(() => import('../pages/Hostel'));
-const Hostel_new = lazy(() => import('../pages/Hostel_new'));
+const HostelNew = lazy(() => import('../pages/HostelNew'));
 const PdfView = lazy(() => import('../pages/PdfView'));
 const VirtualCampus = lazy(() => import('../pages/VirtualCampusPage'));
 const ForumDetail = lazy(() => import('../components/ForumDetail/ForumDetail'));
@@ -50,7 +50,7 @@ const Routes = () => {
         <Route exact path="/courses/:id/:content" component={CourseDetail} />
         <Route exact path="/pdfview" component={PdfView} isPrivate />
         <Route exact path="/hostel" component={Hostel} isPrivate />
-        <Route exact path="/hostel_new" component={Hostel_new} isPrivate />
+        <Route exact path="/hostel_new" component={HostelNew} isPrivate />
         <Route exact path="/timetable" component={TimeTable} isPrivate />
         <Route exact path="/forum" component={Forum} isPrivate />
         <Route exact path="/private" component={PrivateTest} />

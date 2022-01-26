@@ -79,7 +79,7 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-const LayoutWrapper = ({ children }) => {
+const LayoutWrapper = ({ children, navTitleText="Welcome" }) => {
   const styles = useStyles();
   const { authenticate, setStudentData, setStudentRefreshedData } = useContext(
     UserContext,
@@ -135,7 +135,7 @@ const LayoutWrapper = ({ children }) => {
       <CssBaseline />
       <Header className={styles.header}>
         <Toolbar>
-          <Nav sidebarId="primarySidebar" />
+          <Nav sidebarId="primarySidebar" titleText={navTitleText} />
         </Toolbar>
       </Header>
       <DrawerSidebar
