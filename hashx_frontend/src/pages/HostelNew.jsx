@@ -20,7 +20,7 @@ function HostelNew() {
   return (
     <div>
       <LayoutWrapper navTitleText="Hostel O">
-        <MainGrid container spacing={3}>
+        <MainGrid container spacing={4}>
           <StyledGrid item xs={12} sm={12} md={7} lg={7}>
             <AboutUs />
           </StyledGrid>
