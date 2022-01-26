@@ -8,6 +8,10 @@ const Item = styled(Paper)({
   borderRadius: '2.5rem',
 });
 
+const ActiveComplaint = styled(Paper)({
+  backgroundColor: '#F0F0F3',
+});
+
 const Heading = styled(Typography)({
   color: '#575757',
   fontWeight: 'bold',
@@ -20,8 +24,11 @@ const SubHeadings = styled(Typography)({});
 
 function Complaints() {
   return (
-    <Item elevation={4}>
-      <Heading variant="h4">Complaints</Heading>
+    <Item elevation={0}>
+      <Heading variant="h4">Complaints..? Let us know.</Heading>
+      <ActiveComplaint>
+        <SubHeadings variant="h6">Chetna Mahajan</SubHeadings>
+      </ActiveComplaint>
     </Item>
   );
 }

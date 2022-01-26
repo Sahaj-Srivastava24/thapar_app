@@ -56,7 +56,7 @@ function MessMenu() {
     setExpandedState(newExpanded ? accor : false);
   };
   return (
-    <Item elevation={4}>
+    <Item elevation={2}>
       <Heading variant="h4">Mess Menu</Heading>
       <StyledAccordion
         disableGutters

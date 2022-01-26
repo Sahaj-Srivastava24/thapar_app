@@ -36,7 +36,7 @@ const SubHeadings = styled(Typography)({});
 
 function Announcement() {
   return (
-    <Item elevation={4}>
+    <Item elevation={2}>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
         <Heading variant="h4">Announcement</Heading>
         <ExpandMoreIcon style={{ transform: 'rotate(-90deg)' }} />

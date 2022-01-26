@@ -20,7 +20,7 @@ const SubHeadings = styled(Typography)({});
 
 function PhotoGallery() {
   return (
-    <Item elevation={4}>
+    <Item elevation={2}>
       <Heading variant="h4">PhotoGallery</Heading>
     </Item>
   );

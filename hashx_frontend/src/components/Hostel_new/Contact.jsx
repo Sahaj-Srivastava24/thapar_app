@@ -20,7 +20,7 @@ const SubHeadings = styled(Typography)({});
 
 function Contact() {
   return (
-    <Item elevation={4}>
+    <Item elevation={2}>
       <Heading variant="h4">Contact Us</Heading>
     </Item>
   );

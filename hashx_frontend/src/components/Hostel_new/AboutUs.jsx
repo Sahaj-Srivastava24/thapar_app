@@ -26,7 +26,7 @@ const Content = styled(Typography)({
 
 function AboutUs() {
   return (
-    <Item elevation={4}>
+    <Item elevation={2}>
       <Heading variant="h4">About</Heading>
       <Content variant="h5">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo iure
